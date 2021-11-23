@@ -83,3 +83,11 @@ footer {
     width: 20pt;
     height: 20pt;
 }
+
+.sweet-mode {
+    position: absolute;
+    left: 90%;
+    top: 5%;
+    width: 20pt;
+    height: 20pt;
+}
