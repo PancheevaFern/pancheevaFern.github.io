@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link id="theme" rel="stylesheet" href="./css/light.css">
+
+    <script>
+        function DarkTheme() {
+            // Obtains an array of all <link>
+            // elements.
+            // Select your element using indexing.
+            var theme = document.getElementsByTagName('link')[0];
+
+            // Change the value of href attribute 
+            // to change the css sheet.
+            if (theme.getAttribute('href') == 'css/light.css') {
+                theme.setAttribute('href', 'css/dark.css');
+            } else {
+                theme.setAttribute('href', 'css/light.css');
+            }
+        }
+
+        function SweetTheme() {
+            if (theme.getAttribute('href') == 'css/light.css') {
+                theme.setAttribute('href', 'css/sweet.css');
+            } else {
+                theme.setAttribute('href', 'css/light.css');
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <h2>Pancheeva's Portfolio</h2>
+        <img src="img/dark.png" class="dark-mode" onclick='DarkTheme()'>
+        <img src="img/sweet.png" class="sweet-mode" onclick='SweetTheme()' width="40" height="40">
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Classworks</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1>Hi! Nice to meet you</h1>
+            <p>
+                <img src="img/e1.jpg" alt="image" />'>
+            </p>
+        </article>
+    </section>
+    <!--
+    <footer>
+        <p>Contact me: mchayapol@gmail.com</p>
+    </footer>
+-->
+
+</body>
+
+</html>

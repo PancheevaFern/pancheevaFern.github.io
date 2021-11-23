@@ -4,13 +4,15 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+    color: #f1f1f1;
 }
 
 
 /* Style the header */
 
 header {
-    background-color: rgb(190, 190, 179);
+    background-color: rgb(228, 114, 123);
     padding: 30px;
     text-align: center;
     font-size: 35px;
@@ -25,7 +27,7 @@ nav {
     width: 30%;
     height: 300px;
     /* only for demonstration, should be removed */
-    background: #ccc;
+    background-color: #ffe2e2;
     padding: 20px;
 }
 
@@ -41,7 +43,7 @@ article {
     float: left;
     padding: 20px;
     width: 70%;
-    background-color: #f1f1f1;
+    background-color: #1b1a1a;
     height: 300px;
     /* only for demonstration, should be removed */
 }
